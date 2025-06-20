@@ -7,11 +7,11 @@ Skin disorders, particularly **skin pigmentation conditions**, are on the rise. 
 - **Hyperpigmentation**: Excessive production of melanin, leading to dark spots or patches.
 - **Hypopigmentation**: Reduced melanin, resulting in lighter skin areas.
 
-However, many skin conditions share visual similarities, making it challenging for dermatologists to accurately diagnose them. Early and precise diagnosis can be significantly improved by using **machine learning (ML)** and **deep learning (DL)** techniques, especially when analyzing **dermatoscopy images**.
+However, many skin conditions share visual similarities, making it challenging for dermatologists to diagnose them accurately. Early and precise diagnosis can be significantly improved by using **machine learning (ML)** and **deep learning (DL)** techniques, especially when analyzing **dermatoscopy images**.
 
 ## Objective
 
-This project investigates the most effective deep learning techniques for the identification and classification of **hyperpigmented skin diseases**. We explore various pre-trained models to determine which method would be most suitable for developing a clinical diagnostic system.
+This project investigates the most effective deep learning techniques for identifying and classifying **hyperpigmented skin diseases**. We explore various pre-trained models to determine which method would be most suitable for developing a clinical diagnostic system.
 
 ## Models Used
 
@@ -44,18 +44,18 @@ After **50 iterations**, the accuracy rates for the models on both the **trainin
 
 ## Best Model
 
-Based on our evaluation, **DenseNet201** was the top-performing model, achieving high accuracy on several skin conditions:
+Based on our evaluation, **YOLO** was the top-performing model, achieving high accuracy on several skin conditions:
 
 - **CS** (Condition 1): Excellent performance
 - **MN** (Condition 2): Excellent performance
 - **ML** (Condition 3): Excellent performance
-- **CN** (Condition 4): Moderate performance
+- **CN** (Condition 4): Excellent performance
 
-Although DenseNet201 demonstrated superior generalization, especially with limited datasets, **YOLO** was selected as the final model for detecting **hyperpigmentation diseases** due to its performance in the **confusion matrix**.
+Although DenseNet201 demonstrated superior accuracy in the training set, especially with limited datasets, it does not generalize that well in the test set. **YOLO** was selected as the final model for detecting **hyperpigmentation diseases** due to its performance in the **confusion matrix**.
 
 ## Conclusion
 
-Our study highlights **DenseNet201** as the best performing model for accurate classification of hyperpigmented skin conditions, based on both **accuracy** and **AUC**. However, **YOLO** was ultimately chosen due to its effective object detection capability. 
+Our study highlights **DenseNet201** as the best-performing model for accurate classification of hyperpigmented skin conditions, based on both **accuracy** and **AUC**. However, **YOLO** was ultimately chosen due to its effective object detection capability. 
 
 While these models hold great potential as diagnostic tools for dermatologists, further research is needed, including:
 
