@@ -1,7 +1,5 @@
 <h1 align="center"><em>Hyperpigmented Skin Disease Classification Using Deep Learning</em></h1>
 
----
-
 ### Built with the tools and technologies:
 
 <p align="center">
