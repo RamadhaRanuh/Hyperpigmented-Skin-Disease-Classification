@@ -1,9 +1,4 @@
-<p align="center"><em>Hyperpigmented Skin Disease Classification Using Deep Learning</em></p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/languages-python-blue" alt="Languages">
-  <img src="https://img.shields.io/badge/Deep%20Learning-FF6F00?logo=tensorflow&logoColor=white" alt="Deep Learning">
-</p>
+<h1 align="center"><em>Hyperpigmented Skin Disease Classification Using Deep Learning</em></h1>
 
 ---
 
