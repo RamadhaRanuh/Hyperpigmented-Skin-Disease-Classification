@@ -152,22 +152,15 @@ The main structure of the project is as follows:
 ```
 .
 ├── README.md
-├── requirements.txt         # Python dependencies
-├── data/                    # Dataset directory
-│   ├── train/               # Training set images (e.g., class_1/, class_2/)
-│   ├── test/                # Test set images (e.g., class_1/, class_2/)
-│   └── ...                  # Optional: validation/
-├── models/                  # Directory to save trained model checkpoints (e.g., .h5, .pth files)
-├── src/                     # Source code for the project
-│   ├── data_loader.py       # Script for loading and preprocessing image data
-│   ├── model_architectures.py # Defines the deep learning model architectures (YOLO, DenseNet201, etc.)
-│   ├── train.py             # Script for training the models
-│   ├── evaluate.py          # Script for evaluating model performance
-│   ├── predict.py           # Script for making predictions on new images
-│   └── utils.py             # Utility functions (e.g., for plotting, metrics calculation)
-├── notebooks/               # Optional: Jupyter notebooks for data exploration, model prototyping
-├── LICENSE                  # Project license file
-└── ...
+├── .DS_Store
+├── .gitattributes
+├── DenseNet201/
+├── GoogleNet/
+├── InceptionResNetV2/
+├── MobileNet/
+├── Yolo/
+├── RM AUC1.png
+└── RM Confussion matrix1.png
 ```
 
 -----
